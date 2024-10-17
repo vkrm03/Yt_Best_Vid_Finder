@@ -12,7 +12,7 @@ const Home = () => {
 
   const handleButtonClick = async () => {
     try {
-      const response = await fetch('http://127.0.0.1:5000/api/videos', {
+      const response = await fetch('https://yt-best-vid-finder-1.onrender.com//api/videos', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
